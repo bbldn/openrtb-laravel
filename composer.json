@@ -1,0 +1,22 @@
+{
+    "name": "bbldn/openrtb-laravel",
+    "description": "OpenRTB specification",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.2",
+        "spatie/laravel-data": "^4.6",
+        "bbldn/adcom-laravel": "^1.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "BBLDN\\OpenRTPLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bbldn05",
+            "email": "bobol.boris@gmail.com"
+        }
+    ]
+}
